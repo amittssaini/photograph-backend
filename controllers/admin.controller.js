@@ -1,7 +1,7 @@
-const { response } = require('../app');
+
 const PartnerVerificationModel = require('../models/partner.model');
 const AdminService = require('../services/admin.service');
-const { message } = require('../validations/auth.validate');
+
 const AdminServiceInstance = new AdminService();
 
 const getVerification=async(req,res)=>{
